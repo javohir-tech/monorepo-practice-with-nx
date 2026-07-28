@@ -8,6 +8,15 @@
     },
     {
       "path": "./apps/my-workspace"
+    },
+    {
+      "path": "./apps/my-second-app-e2e"
+    },
+    {
+      "path": "./apps/my-second-app"
+    },
+    {
+      "path": "./libs/shared"
     }
   ]
 }

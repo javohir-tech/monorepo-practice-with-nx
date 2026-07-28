@@ -16,6 +16,9 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "es2022",
-    "customConditions": ["@my-workspace/source"]
+    "customConditions": ["@my-workspace/source"],
+    "paths": {
+      "@my-workspace/shared": ["./libs/shared/src/index.ts"]
+    }
   }
 }
