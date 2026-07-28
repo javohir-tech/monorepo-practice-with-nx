@@ -1,20 +1,13 @@
-<script setup lang="ts">
-import { MyButton } from '@my-workspace/shared';
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <main>
     <header>
       <nav>
-        <NuxtLink to="/">
-          Home
-        </NuxtLink>
-        <NuxtLink to="/about">
-          About
-        </NuxtLink>
+        <NuxtLink to="/"> Home </NuxtLink>
+        <NuxtLink to="/about"> About </NuxtLink>
       </nav>
     </header>
-    <MyButton />
     <nuxt-page />
   </main>
 </template>
@@ -25,7 +18,7 @@ header {
   max-width: 100vw;
 }
 
-nav>a {
+nav > a {
   padding-left: 1rem;
   padding-right: 1rem;
 }
